@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f5f7fb;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* ================= DARK MODE ================= */
+
+body.dark {
+  background-color: #000000;
+  color: white;
+}
+
+/* Main Layout */
+body.dark .main-content {
+  background-color: #111827;
+}
+
+/* Sidebar */
+body.dark .sidebar {
+  background-color: #111827 !important;
+  color: white;
+}
+
+/* Mobile Sidebar */
+body.dark .mobile-sidebar {
+  background-color: #111827 !important;
+  color: white;
+}
+
+/* Navbar */
+body.dark .navbar {
+  background-color: #111827 !important;
+  color: white;
+}
+
+/* Cards */
+body.dark .card {
+  background-color: #1f2937;
+  color: white;
+}
+
+/* Inputs */
+body.dark input,
+body.dark select,
+body.dark textarea {
+  background-color: #374151;
+  border: 1px solid #4b5563;
+  color: white;
+}
+
+/* Placeholder */
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+  color: #d1d5db;
+}
+
+/* Tables */
+body.dark table {
+  background-color: #1f2937;
+  color: white;
+}
+
+/* Links */
+body.dark a {
+  color: white;
+}
